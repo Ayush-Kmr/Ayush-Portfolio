@@ -1,0 +1,162 @@
+@media screen and (max-width: 900px) {
+  .work-container {
+    max-width: 100vw;
+    overflow-x: auto;
+    padding: 0 30px;
+  }
+  .work-list {
+    display: flex;
+  }
+  .work-list img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .work-list .work {
+    min-width: 200px !important;
+    min-height: 250px !important;
+    margin: 0;
+  }
+  .footer-container {
+    display: block;
+  }
+  .footer-container .about.group * {
+    text-align: center;
+  }
+  .contact .container .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .contact-right {
+    margin: 0;
+    width: 100%;
+  }
+  .section-title-01 {
+    font-size: 3.5rem;
+  }
+  .get-in-touch .contact-card {
+    margin: auto;
+    width: 100%;
+  }
+  .get-in-touch {
+    margin: 0 10px;
+  }
+  .contact-card .title h2 {
+    font-size: 2.5rem;
+    line-height: 40px;
+  }
+  .unorder {
+    flex-direction: row;
+  }
+  .home .home-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .home {
+    padding-top: 0;
+  }
+  .home .scroll-down {
+    margin: auto;
+    opacity: 0.5;
+  }
+  .about-info {
+    margin: auto;
+  }
+  .description {
+    margin: auto;
+  }
+
+  .contact-left {
+    display: none;
+  }
+  section.portfolio {
+    padding: 0;
+  }
+  .skillss-info {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .skill-description {
+    display: none;
+  }
+
+  .home-container .media-icons {
+    margin: auto;
+  }
+  .homedetails {
+    padding: 0 10px;
+  }
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-center {
+    display: block;
+    text-align: center;
+  }
+  .info h2 {
+    font-size: 2em !important;
+  }
+  .footer-container .icons a {
+    height: 40px;
+    width: 40px;
+  }
+  .container1 .text {
+    font-size: 20px;
+  }
+  .gifg {
+    width: 80%;
+    max-width: 350px;
+    margin: auto;
+  }
+
+  .menu-btn {
+    padding: 10px 12px;
+    float: right;
+    display: block;
+  }
+  .responsive-nav .logo {
+    display: none;
+  }
+  .hide-div {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+  }
+
+  .responsive-nav {
+    display: block !important;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+  }
+  .responsive-nav .nav-bar {
+    margin-top: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 20px;
+    display: block;
+  }
+  .responsive-nav .nav-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .responsive-nav .nav-items a {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .non-mobile {
+    display: block;
+  }
+  .mobile-icon {
+    display: none;
+  }
+  .home {
+    padding-bottom: 50px;
+  }
+}

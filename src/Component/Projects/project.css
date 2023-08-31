@@ -1,0 +1,73 @@
+.portfolio .container .content {
+  width: 100%;
+}
+.work-list {
+  display: grid;
+  grid-template-columns: 27vw 27vw 27vw;
+  grid-gap: 42px;
+}
+.work {
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  height: 32vw;
+  margin-top: -45px;
+  margin-bottom: 45px;
+}
+
+.work img {
+  width: 100%;
+  border-radius: 20px;
+  display: block;
+  transition: transform 0.5s;
+}
+
+.layer {
+  width: 100%;
+  height: 0%;
+  background: linear-gradient(
+    rgba(237, 226, 226, 0.6),
+    var(--scroll-thumb-hover-color)
+  );
+  border-radius: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+}
+
+.layer h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.menu-btn {
+  display: none;
+}
+.layer a {
+  margin-top: 20px;
+  color: var(--scroll-thumb-hover-color);
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  background: #ffffffcf;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.work:hover img {
+  transform: scale(1.1);
+}
+
+.work:hover .layer {
+  height: 100%;
+}

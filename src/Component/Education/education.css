@@ -1,0 +1,86 @@
+.skillss .container .content {
+  width: 100%;
+}
+.skillss-description {
+  max-width: 700px;
+  margin-bottom: 50px;
+}
+.skillss-description h3 {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+.skillss-info {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+  margin: 0 auto;
+}
+.skill-description {
+  margin-top: -30px;
+}
+.img {
+  display: flex;
+  justify-content: center;
+}
+.gifg {
+  width: 500px;
+  max-width: 100%;
+  margin: auto;
+}
+.education-all {
+  margin-bottom: 80px;
+}
+.edu-list .item {
+  background-color: var(--card-bg-color);
+  box-shadow: var(--box-shadow);
+  border-bottom: 3px solid var(--second-color);
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+.edu-list .item .year {
+  font-size: var(--small-font-size);
+  margin-bottom: 5px;
+}
+.edu-list .item p {
+  color: var(--third-color);
+  font-size: var(--small-font-size);
+}
+.edu-list .item p span {
+  color: var(--first-color);
+  font-size: var(--normal-font-size);
+  font-weight: 500;
+}
+
+.experience-card {
+  background: var(--card-bg-color);
+  border-bottom: 3px solid var(--second-color);
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+  transition: 0.3s ease;
+}
+.experience-card .upper {
+  line-height: 30px;
+}
+.experience-card h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-style: italic;
+}
+.experience-card span {
+  color: var(--third-color);
+}
+.experience-card .hr {
+  width: 100%;
+  height: 2px;
+  background: var(--line-color);
+  margin: 10px 0 22px;
+}
+.edu-list .item:hover,
+.bar:hover,
+.experience-card:hover {
+  transform: scale(1.03);
+}

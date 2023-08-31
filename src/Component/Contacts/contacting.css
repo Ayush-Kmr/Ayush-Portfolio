@@ -1,0 +1,162 @@
+.contact .container .content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.contact-left h2 {
+  font-size: 2.1rem;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+.contact-left {
+  line-height: 34px;
+}
+.contact-list li {
+  margin-bottom: 40px;
+}
+.contact-list li h3 {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.contact-list li h3 i {
+  color: var(--second-color);
+  font-size: 1.3em;
+  margin-right: 10px;
+}
+.content > div {
+  width: 100%;
+}
+.contact-list li span {
+  color: var(--third-color);
+  margin-left: 40px;
+}
+
+.contact-list li span a {
+  color: var(--third-color);
+}
+.contact-right p {
+  color: var(--third-color);
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+}
+.contact-right p span {
+  color: var(--first-color);
+  font-weight: 700;
+}
+.contact-form input,
+.contact-form textarea {
+  border: none;
+  color: var(--first-color);
+  background: rgba(156, 178, 232, 0.1);
+  font-size: var(--normal-font-size);
+  margin-bottom: 10px;
+  padding: 15px 20px 20px 2px;
+  border-radius: 20px;
+}
+.contact-form textarea {
+  width: 100%;
+  resize: none;
+}
+::placeholder {
+  color: var(--first-color);
+}
+.contact-form .first-row input {
+  width: 100%;
+}
+
+.contact-form .second-row {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-form .second-row input {
+  width: 100%;
+}
+.contact-form .btn {
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.icons {
+  margin-left: -12rem;
+}
+.contact-img {
+  height: 70%;
+  width: 70%;
+}
+/* ========================================== */
+.unord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.unord .list a {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 22px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #fff;
+  z-index: 1;
+  line-height: 40px;
+  margin-left: 1px;
+}
+
+.unord .list .icon {
+  position: relative;
+  color: var(--second-color);
+  transition: 0.5s;
+  z-index: 3;
+}
+
+.unord .list a:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.unord .list a:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: 0.5s;
+  z-index: 2;
+}
+.unord .list a:hover:before {
+  top: 0;
+}
+
+.unord .list:nth-child(1) a:before {
+  background: #333;
+}
+
+.unord .list:nth-child(2) a:before {
+  background: #0a0a0a;
+}
+
+.unord .list:nth-child(3) a:before {
+  background: #0077b5;
+}
+
+.unord .list:nth-child(4) a:before {
+  background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+}
+.unord .list:nth-child(5) a:before {
+  background: conic-gradient(
+      from -45deg,
+      #ea4335 110deg,
+      #4285f4 90deg 180deg,
+      #34a853 180deg 270deg,
+      #fbbc05 270deg
+    )
+    73% 55%/150% 150% no-repeat;
+}
