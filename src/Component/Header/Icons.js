@@ -11,7 +11,7 @@ function Icons() {
         </li>
         <li className="listed">
           <a href="#">
-            <i className="fab fa-x icon"></i>
+            <i className="fab fa-x-twitter icon"></i>
           </a>
         </li>
         <li className="listed">
