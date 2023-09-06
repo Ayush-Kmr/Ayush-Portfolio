@@ -3,6 +3,8 @@
     max-width: 100vw;
     overflow-x: auto;
     padding: 0 30px;
+    background-color: #fff;
+    z-index: 999;
   }
   .work-list {
     display: flex;
@@ -16,6 +18,9 @@
     min-width: 200px !important;
     min-height: 250px !important;
     margin: 0;
+  }
+  footer {
+    z-index: 999;
   }
   .footer-container {
     display: block;
@@ -62,6 +67,11 @@
     margin: auto;
     opacity: 0.5;
   }
+
+  .scroll-down {
+    z-index: 999;
+  }
+
   .about-info {
     margin: auto;
   }
@@ -97,6 +107,7 @@
   .flex-center {
     display: block;
     text-align: center;
+    z-index: 999;
   }
   .info h2 {
     font-size: 2em !important;

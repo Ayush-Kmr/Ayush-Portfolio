@@ -5,13 +5,13 @@ function Icons() {
     <div className="media-icons">
       <ul className="unorder">
         <li className="listed">
-          <a href="#">
-            <i className="fab fa-github icon"></i>{" "}
+          <a href="https://github.com/Ayush-Kmr" alt="blank">
+            <i className="fab fa-github icon"></i>
           </a>
         </li>
         <li className="listed">
           <a href="#">
-            <i className="fab fa-x icon"></i>
+            <i className="fab fa-x-twitter icon"></i>
           </a>
         </li>
         <li className="listed">

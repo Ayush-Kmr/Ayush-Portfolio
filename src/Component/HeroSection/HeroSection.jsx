@@ -2,6 +2,7 @@ import React from "react";
 import "./herosection.css";
 import { Typewriter, useTypewriter, Cursor } from "react-simple-typewriter";
 import Icons from "../Header/Icons";
+import zIndex from "@mui/material/styles/zIndex";
 
 const HeroSection = () => {
   return (
@@ -50,12 +51,17 @@ const HeroSection = () => {
               </div>
             </a>
           </div>
-          <div className="home-img">
-            <img
-              src={require("../../Assets/rups.png")}
-              className="round-img"
-              alt=""
-            />
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front"></div>
+              <div className="home-img">
+                <img
+                  src={require("../../Assets/rups.png")}
+                  className="round-img"
+                  alt=""
+                />
+              </div>
+            </div>
           </div>
         </div>
         <a href="#about" className="scroll-down">

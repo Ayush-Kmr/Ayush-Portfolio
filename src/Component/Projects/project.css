@@ -13,6 +13,8 @@
   height: 32vw;
   margin-top: -45px;
   margin-bottom: 45px;
+  background-color: #fff;
+  z-index: 999;
 }
 
 .work img {

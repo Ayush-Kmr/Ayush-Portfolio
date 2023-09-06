@@ -53,6 +53,7 @@
   margin-bottom: 10px;
   padding: 15px 20px 20px 2px;
   border-radius: 20px;
+  background-color: #f1f6fe;
 }
 .contact-form textarea {
   width: 100%;
@@ -83,6 +84,7 @@
 .contact-img {
   height: 70%;
   width: 70%;
+  background-color: #fff;
 }
 /* ========================================== */
 .unord {

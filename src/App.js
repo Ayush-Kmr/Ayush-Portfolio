@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import Loader from "./Component/PreLoader/Loader";
 import Navbar from "./Component/Header/Navbar";
@@ -44,7 +44,7 @@ function App() {
         options={{
           fullScreen: {
             enable: true,
-            zIndex: -1,
+            zIndex: 1,
           },
           particles: {
             number: {
@@ -73,7 +73,7 @@ function App() {
               },
             },
             opacity: {
-              value: 0.252,
+              value: 0.199,
               random: false,
               anim: {
                 enable: false,
@@ -83,7 +83,7 @@ function App() {
               },
             },
             size: {
-              value: 5,
+              value: 4,
               random: true,
               anim: {
                 enable: false,
@@ -101,7 +101,7 @@ function App() {
             },
             move: {
               enable: true,
-              speed: 6,
+              speed: 7,
               direction: "none",
               random: false,
               straight: false,
@@ -109,8 +109,8 @@ function App() {
               bounce: false,
               attract: {
                 enable: false,
-                rotateX: 600,
-                rotateY: 1200,
+                rotateX: 500,
+                rotateY: 1000,
               },
             },
           },
@@ -129,16 +129,16 @@ function App() {
             },
             modes: {
               grab: {
-                distance: 400,
+                distance: 200,
                 line_linked: {
                   opacity: 1,
                 },
               },
               bubble: {
-                distance: 400,
-                size: 40,
+                distance: 200,
+                size: 30,
                 duration: 2,
-                opacity: 8,
+                opacity: 7,
                 speed: 1,
               },
               repulse: {

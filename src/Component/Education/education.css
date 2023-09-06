@@ -31,6 +31,7 @@
 .education-all {
   margin-bottom: 80px;
 }
+
 .edu-list .item {
   background-color: var(--card-bg-color);
   box-shadow: var(--box-shadow);
@@ -39,6 +40,9 @@
   margin-top: 15px;
   border-radius: 20px;
   transition: 0.3s ease;
+}
+img {
+  z-index: 9999;
 }
 .edu-list .item .year {
   font-size: var(--small-font-size);
@@ -61,6 +65,7 @@
   border-radius: 20px;
   box-shadow: var(--box-shadow);
   transition: 0.3s ease;
+  z-index: 999;
 }
 .experience-card .upper {
   line-height: 30px;

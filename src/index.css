@@ -175,8 +175,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 999;
 }
-
+.container .flex-center {
+  z-index: 9999;
+}
 .section {
   position: relative;
   max-width: 1150px;
@@ -205,6 +208,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: #454f6b;
   opacity: 0.1;
+  z-index: 9999;
 }
 
 .section-title-02 {
@@ -214,6 +218,7 @@ body {
   font-size: 2.5rem;
   font-weight: 700;
   transform: translateY(-80px);
+  z-index: 9999;
 }
 
 .section-title-02:before {

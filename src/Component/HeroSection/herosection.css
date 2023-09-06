@@ -100,6 +100,8 @@
 
 .home-container .home-img {
   position: relative;
+  /* background-color: #fff; */
+  z-index: 9999;
 }
 
 .home-container .home-img img {
@@ -118,6 +120,10 @@
   color: var(--second-color);
   font-size: 1.2em;
   animation: arrow-down ease 2s infinite;
+}
+.scroll-down {
+  background-color: #fff;
+  z-index: 999;
 }
 
 @keyframes arrow-down {
@@ -212,4 +218,27 @@
       #fbbc05 270deg
     )
     73% 55%/150% 150% no-repeat;
+}
+
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  color: black;
 }

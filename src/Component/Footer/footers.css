@@ -8,6 +8,7 @@ footer {
   margin-top: 50px;
   padding: 3rem 2rem;
   color: #fff;
+  z-index: 999;
 }
 
 footer a {
