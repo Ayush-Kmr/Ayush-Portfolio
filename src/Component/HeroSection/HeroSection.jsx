@@ -38,7 +38,12 @@ const HeroSection = () => {
               art of creating seamless digital experiences. Innovation and
               problem-solving drive my quest for excellence.
             </p>
-            <a href="#" className="btn button-30" id="hire">
+            <a
+              href="https://www.linkedin.com/in/ayu-kmr/"
+              target="blank"
+              className="btn button-30"
+              id="hire"
+            >
               Hire Me
               <div className="space">
                 <i className="fas fa-arrow-circle-right"></i>

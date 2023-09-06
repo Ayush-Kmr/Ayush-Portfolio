@@ -29,8 +29,8 @@ const About = () => {
               </div>
               <ul className="ul-professional-list">
                 <li className="list-item">
-                  <h3>1+</h3>
-                  <span>Years of experience</span>
+                  {/* <h3>1+</h3>
+                  <span>Years of experience</span> */}
                 </li>
                 <li className="list-item">
                   {/* <h3>5+</h3>
@@ -41,7 +41,12 @@ const About = () => {
                   {/* <span>Years of experience</span> */}
                 </li>
               </ul>
-              <a href="" id="dbtn" download className="btn button-30">
+              <a
+                href={require("../../Assets/Resume.pdf")}
+                id="dbtn"
+                download
+                className="btn button-30"
+              >
                 Download CV{""}
                 <div className="space">
                   <i className="fas fa-download"></i>

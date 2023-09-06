@@ -12,16 +12,16 @@ const expData = [
     description:
       "At TechTwins Technologies' summer internship, I excelled as a web developer intern, gaining valuable hands-on experience, enhancing coding skills, and actively contributing to real-world projects.",
   },
-  {
-    id: 2,
-    position: "Web Developer",
-    role: "Intern",
-    duration: "2020-2021",
-    cname: "Techtwins Technologies",
-    URL: "ayush kumar",
-    description:
-      "  Lorem ipsum dolor sit amet consectetur adipisicing elit.Dolorem ipsam ratione eaque nihil. Fuga, voluptatem.",
-  },
+  // {
+  //   id: 2,
+  //   position: "Web Developer",
+  //   role: "Intern",
+  //   duration: "2020-2021",
+  //   cname: "Techtwins Technologies",
+  //   URL: "ayush kumar",
+  //   description:
+  //     "  Lorem ipsum dolor sit amet consectetur adipisicing elit.Dolorem ipsam ratione eaque nihil. Fuga, voluptatem.",
+  // },
 ];
 
 const Education = () => {
@@ -96,7 +96,6 @@ const Education = () => {
                   );
                 }
               )}
-              ;
             </div>
           </div>
         </div>
