@@ -40,7 +40,7 @@ const Footers = () => {
                 </li>
                 <li className="list">
                   <a href="#">
-                    <i className="fab fa-x-twitter icon"></i>
+                    <i className="fab fa-x icon"></i>
                   </a>
                 </li>
                 <li className="list">
