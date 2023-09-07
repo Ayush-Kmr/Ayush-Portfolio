@@ -4,8 +4,8 @@ import "./project.css";
 const data = [
   {
     id: 1,
-    image: require("../../Assets/work-1.png"),
-    name: "Social App",
+    image: require("../../Assets/crs.png"),
+    name: "Car Rental",
     URL: "#",
     description:
       "This app conncects you to the talented people arond the world. Download it from the play store.",
@@ -13,7 +13,7 @@ const data = [
 
   {
     id: 2,
-    image: require("../../Assets/work-1.png"),
+    image: require("../../Assets/FC.png"),
     name: "Social App",
     URL: "#",
     description:
