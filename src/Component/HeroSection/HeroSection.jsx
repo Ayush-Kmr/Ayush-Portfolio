@@ -39,8 +39,8 @@ const HeroSection = () => {
               problem-solving drive my quest for excellence.
             </p>
             <a
-              href="https://www.linkedin.com/in/ayu-kmr/"
-              target="blank"
+              href="mailto:krayushkumar01@gmail.com"
+              target="_blank"
               className="btn button-30"
               id="hire"
             >
@@ -49,7 +49,11 @@ const HeroSection = () => {
                 <i className="fas fa-arrow-circle-right"></i>
               </div>
             </a>
-            <a href="#" className="btn button-30">
+            <a
+              href="https://t.me/ayushoppenheimer"
+              target="_blank"
+              className="btn button-30"
+            >
               Lets's Talk
               <div className="space">
                 <i className="fas fa-arrow-circle-right"></i>
