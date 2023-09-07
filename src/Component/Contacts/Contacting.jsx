@@ -1,7 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import "./contacting.css";
+import axios from "axios";
 
-const contact = () => {
+const Contact = () => {
+  const scriptURL =
+    "https://script.google.com/macros/s/AKfycbxsywwIxdSHuuE9Lx6N6gzgZMkjPKGs3SqGu-gVPXA7LLeyB31jEDfzUIFccMv5Z2StFg/exec";
+
+  const [msg, setMsg] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const formData = new FormData(form);
+
+    axios
+      .post(scriptURL, formData)
+      .then((response) => {
+        setMsg("Thank You For Contacting Me.");
+        setTimeout(function () {
+          setMsg("");
+        }, 1000);
+        form.reset();
+      })
+      .catch((error) => console.error("Error!", error.message));
+  };
+
   return (
     <>
       <section className="contact section" id="contact">
@@ -18,8 +41,12 @@ const contact = () => {
               />
             </div>
             <div className="contact-right">
-              <form name="submit-to-google-sheet" className="contact-form">
-                <span id="msg"></span>
+              <form
+                name="submit-to-google-sheet"
+                className="contact-form"
+                onSubmit={handleSubmit}
+              >
+                <span id="msg">{msg ? msg : ""}</span>
                 <div className="first-row">
                   <input
                     type="text"
@@ -31,6 +58,7 @@ const contact = () => {
                 <div className="second-row">
                   <input
                     type="email"
+                    id="email"
                     name="Email"
                     placeholder="Your Email"
                     required
@@ -60,4 +88,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;
