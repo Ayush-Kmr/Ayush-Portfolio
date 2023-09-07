@@ -1,22 +1,32 @@
 {
   "files": {
-    "main.css": "/Ayush-Portfolio/static/css/main.71e8f879.css",
-    "main.js": "/Ayush-Portfolio/static/js/main.0089ec41.js",
+    "main.css": "/Ayush-Portfolio/static/css/main.cd7aef7c.css",
+    "main.js": "/Ayush-Portfolio/static/js/main.ea1565ff.js",
     "static/js/787.1ed0c42c.chunk.js": "/Ayush-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/work-1.png": "/Ayush-Portfolio/static/media/work-1.9d70c2239b9cefe78a18.png",
     "static/media/arups.png": "/Ayush-Portfolio/static/media/arups.917d9aa345396907bf60.png",
     "static/media/profile.gif": "/Ayush-Portfolio/static/media/profile.5081f2561f401a474832.gif",
+    "static/media/react.png": "/Ayush-Portfolio/static/media/react.2f2532db663fd5ec5f95.png",
     "static/media/rups.png": "/Ayush-Portfolio/static/media/rups.4212436f7a509f3dafb2.png",
     "static/media/geographic map compass.png": "/Ayush-Portfolio/static/media/geographic map compass.2530f0389bdc708fd4dd.png",
+    "static/media/tailwind.png": "/Ayush-Portfolio/static/media/tailwind.3549d9e451d7abb96934.png",
+    "static/media/bootstrap.png": "/Ayush-Portfolio/static/media/bootstrap.c5b2fc44d37fd3864947.png",
+    "static/media/html.png": "/Ayush-Portfolio/static/media/html.f3aa7827cd5160f3fc1c.png",
+    "static/media/git.png": "/Ayush-Portfolio/static/media/git.7e19ced30f7817541e65.png",
     "static/media/Resume.pdf": "/Ayush-Portfolio/static/media/Resume.db29391ba092855a1dab.pdf",
-    "static/media/express.png": "/Ayush-Portfolio/static/media/express.de73477551c7e26ff356.png",
+    "static/media/java.png": "/Ayush-Portfolio/static/media/java.5d5cffa04d820ba0644c.png",
+    "static/media/js.png": "/Ayush-Portfolio/static/media/js.747787dca203fae2cd83.png",
+    "static/media/css.png": "/Ayush-Portfolio/static/media/css.f5abc244362b5136dc0e.png",
+    "static/media/c.png": "/Ayush-Portfolio/static/media/c.83dfa097dfa94f707a41.png",
+    "static/media/github.png": "/Ayush-Portfolio/static/media/github.dfdd0989ffe0184bdd68.png",
+    "static/media/c++.png": "/Ayush-Portfolio/static/media/c++.36a6aae067f8ef48fd4d.png",
     "index.html": "/Ayush-Portfolio/index.html",
-    "main.71e8f879.css.map": "/Ayush-Portfolio/static/css/main.71e8f879.css.map",
-    "main.0089ec41.js.map": "/Ayush-Portfolio/static/js/main.0089ec41.js.map",
+    "main.cd7aef7c.css.map": "/Ayush-Portfolio/static/css/main.cd7aef7c.css.map",
+    "main.ea1565ff.js.map": "/Ayush-Portfolio/static/js/main.ea1565ff.js.map",
     "787.1ed0c42c.chunk.js.map": "/Ayush-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71e8f879.css",
-    "static/js/main.0089ec41.js"
+    "static/css/main.cd7aef7c.css",
+    "static/js/main.ea1565ff.js"
   ]
 }
