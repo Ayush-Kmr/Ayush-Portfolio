@@ -80,6 +80,11 @@
   z-index: 9999;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 500px 500px;
+}
+
 .skills-subtitle {
   margin-bottom: var(--mb-2);
 }
@@ -109,6 +114,7 @@
   font-size: 2rem;
   margin-right: var(--mb-2);
   color: rgb(30, 152, 201);
+  max-height: 33px;
 }
 
 img.man-icons {
