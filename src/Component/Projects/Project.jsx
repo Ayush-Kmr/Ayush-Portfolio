@@ -6,18 +6,18 @@ const data = [
     id: 1,
     image: require("../../Assets/crs.png"),
     name: "Car Rental",
-    URL: "#",
+    URL: "https://ayush-kmr.github.io/Car-Rental-System/",
     description:
-      "This app conncects you to the talented people arond the world. Download it from the play store.",
+      "Sleek car rental site: HTML, CSS, JavaScript. Streamlined navigation, intuitive interface",
   },
 
   {
     id: 2,
     image: require("../../Assets/FC.png"),
-    name: "Social App",
-    URL: "#",
+    name: "Flipkart CLone",
+    URL: "https://ayush-kmr.github.io/Flipkart-Clone/",
     description:
-      "This app conncects you to the talented people arond the world. Download it from the play store.",
+      "HTML, CSS-based Flipkart clone for an authentic online shopping experience.",
   },
 
   {
@@ -74,7 +74,7 @@ const Project = () => {
                       <div className="layer">
                         <h3>{name}</h3>
                         <p>{description}</p>
-                        <a href="#">
+                        <a href={URL} target="_blank">
                           <i className="fa-solid fa-up-right-from-square"></i>
                         </a>
                       </div>

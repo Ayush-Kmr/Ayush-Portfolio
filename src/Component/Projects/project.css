@@ -3,16 +3,17 @@
 }
 .work-list {
   display: grid;
-  grid-template-columns: 27vw 27vw 27vw;
-  grid-gap: 42px;
+  grid-template-columns: 25vw 25vw 25vw;
+  grid-gap: 27px;
 }
 .work {
   border-radius: 20px;
   position: relative;
   overflow: hidden;
-  height: 32vw;
-  margin-top: -45px;
-  margin-bottom: 45px;
+  height: 20vw;
+  width: 23vw;
+  margin-top: -60px;
+  margin-bottom: 65px;
   background-color: #fff;
   z-index: 999;
 }
