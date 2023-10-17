@@ -10,9 +10,17 @@ const data = [
     description:
       "Sleek car rental site: HTML, CSS, JavaScript. Streamlined navigation, intuitive interface",
   },
-
   {
     id: 2,
+    image: require("../../Assets/psg.png"),
+    name: "Passwrod Generator",
+    URL: "https://ayush-kmr.github.io/Password-Generator/",
+    description:
+      "Advanced password generation,user-friendly interface, secure, private.",
+  },
+
+  {
+    id: 3,
     image: require("../../Assets/FC.png"),
     name: "Flipkart CLone",
     URL: "https://ayush-kmr.github.io/Flipkart-Clone/",
@@ -21,39 +29,27 @@ const data = [
   },
 
   {
-    id: 3,
-    image: require("../../Assets/work-1.png"),
-    name: "Social App",
-    URL: "#",
-    description:
-      "This app conncects you to the talented people arond the world. Download it from the play store.",
-  },
-
-  {
     id: 4,
     image: require("../../Assets/work-1.png"),
-    name: "Social App",
+    name: "Web App",
     URL: "#",
-    description:
-      "This app conncects you to the talented people arond the world. Download it from the play store.",
+    description: "Comming Soon.",
   },
 
   {
     id: 5,
     image: require("../../Assets/work-1.png"),
-    name: "Social App",
+    name: "Web App",
     URL: "#",
-    description:
-      "This app conncects you to the talented people arond the world. Download it from the play store.",
+    description: "Comming Soon.",
   },
 
   {
     id: 6,
     image: require("../../Assets/work-1.png"),
-    name: "Social App",
+    name: "Web App",
     URL: "#",
-    description:
-      "This app conncects you to the talented people arond the world. Download it from the play store.",
+    description: "Comming Soon.",
   },
 ];
 

@@ -6,7 +6,7 @@ const expData = [
     id: 1,
     position: "Web Developer",
     role: "Intern",
-    duration: "June(2023) - July(2023) ",
+    duration: "June - July (2023) ",
     cname: "Techtwins Technologies",
     URL: "https://techtwins.co.in/",
     description:
@@ -35,30 +35,36 @@ const Education = () => {
             <div className="skill-description">
               <h3>Education</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Praesentium quam deserunt ad minima incidunt dolore aliquam odio
-                libero pariatur omnis? Excepturi obcaecati commodi cum delectus?
+                Education is the cornerstone of personal growth and societal
+                progress, illuminating the path towards a brighter future.
               </p>
             </div>
             <div className="skillss-info education-all">
               <div className="education">
                 <ul className="edu-list">
                   <li className="item">
-                    <span className="year">2017-2019</span>
+                    <span className="year">2021-Present</span>
                     <p>
-                      <span>CBSE 10th </span> City Convent School
+                      <span>BTECH-CSE </span> Lovely Professional University
                     </p>
                   </li>
                   <li className="item">
                     <span className="year">2019-2021</span>
                     <p>
-                      <span>CBSE 12th </span> City Convent School
+                      <span>
+                        CBSE 12<sup>th</sup>{" "}
+                      </span>{" "}
+                      City Convent School
                     </p>
                   </li>
+
                   <li className="item">
-                    <span className="year">2021-Present</span>
+                    <span className="year">2017-2019</span>
                     <p>
-                      <span>BTECH-CSE </span> Lovely Professional University
+                      <span>
+                        CBSE 10<sup>th</sup>{" "}
+                      </span>{" "}
+                      City Convent School
                     </p>
                   </li>
                 </ul>
