@@ -30,10 +30,11 @@ const data = [
 
   {
     id: 4,
-    image: require("../../Assets/work-1.png"),
-    name: "Web App",
-    URL: "#",
-    description: "Comming Soon.",
+    image: require("../../Assets/grocery.png"),
+    name: "Grocery Store",
+    URL: "https://ayush-kmr.github.io/Grocery-Store/",
+    description:
+      "Online platform for convenient, fresh, and varied grocery shopping experience.",
   },
 
   {
