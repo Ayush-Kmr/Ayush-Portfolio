@@ -25,7 +25,7 @@ const data = [
     name: "Weather Forecasting",
     URL: "https://ayush-kmr.github.io/Weather-Forecasting/",
     description:
-      "Adaptive interface providing precise real-time weather with efficient performance.",
+      "Responsive interface for precise live weather with efficient function.",
   },
   {
     id: 4,
