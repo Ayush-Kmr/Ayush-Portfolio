@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/Ayush-Portfolio/static/css/main.e3318f92.css",
-    "main.js": "/Ayush-Portfolio/static/js/main.db7f2e92.js",
+    "main.js": "/Ayush-Portfolio/static/js/main.29965477.js",
     "static/js/787.1ed0c42c.chunk.js": "/Ayush-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/work-1.png": "/Ayush-Portfolio/static/media/work-1.9d70c2239b9cefe78a18.png",
     "static/media/arups.png": "/Ayush-Portfolio/static/media/arups.917d9aa345396907bf60.png",
     "static/media/grocery.png": "/Ayush-Portfolio/static/media/grocery.a3273e458ef6e33a226a.png",
+    "static/media/WF.png": "/Ayush-Portfolio/static/media/WF.80dddb280a4cef74b627.png",
     "static/media/FC.png": "/Ayush-Portfolio/static/media/FC.d49853cfef0d382d4440.png",
     "static/media/crs.png": "/Ayush-Portfolio/static/media/crs.3deafe7bc56bf5d3fb77.png",
     "static/media/profile.gif": "/Ayush-Portfolio/static/media/profile.5081f2561f401a474832.gif",
@@ -26,11 +27,11 @@
     "static/media/c++.png": "/Ayush-Portfolio/static/media/c++.36a6aae067f8ef48fd4d.png",
     "index.html": "/Ayush-Portfolio/index.html",
     "main.e3318f92.css.map": "/Ayush-Portfolio/static/css/main.e3318f92.css.map",
-    "main.db7f2e92.js.map": "/Ayush-Portfolio/static/js/main.db7f2e92.js.map",
+    "main.29965477.js.map": "/Ayush-Portfolio/static/js/main.29965477.js.map",
     "787.1ed0c42c.chunk.js.map": "/Ayush-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3318f92.css",
-    "static/js/main.db7f2e92.js"
+    "static/js/main.29965477.js"
   ]
 }
