@@ -21,6 +21,14 @@ const data = [
 
   {
     id: 3,
+    image: require("../../Assets/WF.png"),
+    name: "Weather Forecasting",
+    URL: "https://ayush-kmr.github.io/Weather-Forecasting/",
+    description:
+      "Adaptive interface providing precise real-time weather with efficient performance.",
+  },
+  {
+    id: 4,
     image: require("../../Assets/FC.png"),
     name: "Flipkart CLone",
     URL: "https://ayush-kmr.github.io/Flipkart-Clone/",
@@ -29,20 +37,12 @@ const data = [
   },
 
   {
-    id: 4,
+    id: 5,
     image: require("../../Assets/grocery.png"),
     name: "Grocery Store",
     URL: "https://ayush-kmr.github.io/Grocery-Store/",
     description:
       "Online platform for convenient, fresh, and varied grocery shopping experience.",
-  },
-
-  {
-    id: 5,
-    image: require("../../Assets/work-1.png"),
-    name: "Web App",
-    URL: "#",
-    description: "Comming Soon.",
   },
 
   {
@@ -67,11 +67,11 @@ const Project = () => {
                 {data.map(({ id, image, name, URL, description }) => {
                   return (
                     <div className="work" key={id}>
-                      <img src={image} />
+                      <img src={image} alt="" />
                       <div className="layer">
                         <h3>{name}</h3>
                         <p>{description}</p>
-                        <a href={URL} target="_blank">
+                        <a href={URL} target="_blank" rel="noreferrer">
                           <i className="fa-solid fa-up-right-from-square"></i>
                         </a>
                       </div>
