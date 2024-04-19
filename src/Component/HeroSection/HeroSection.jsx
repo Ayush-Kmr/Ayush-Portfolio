@@ -1,8 +1,8 @@
 import React from "react";
 import "./herosection.css";
-import { Typewriter, useTypewriter, Cursor } from "react-simple-typewriter";
+import { Typewriter } from "react-simple-typewriter";
 import Icons from "../Header/Icons";
-import zIndex from "@mui/material/styles/zIndex";
+// import zIndex from "@mui/material/styles/zIndex";
 
 const HeroSection = () => {
   return (
@@ -41,6 +41,7 @@ const HeroSection = () => {
             <a
               href="mailto:krayushkumar01@gmail.com"
               target="_blank"
+              rel="noreferrer"
               className="btn button-30"
               id="hire"
             >
@@ -52,6 +53,7 @@ const HeroSection = () => {
             <a
               href="https://t.me/ayushoppenheimer"
               target="_blank"
+              rel="noreferrer"
               className="btn button-30"
             >
               Lets's Talk

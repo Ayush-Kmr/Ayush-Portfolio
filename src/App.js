@@ -48,17 +48,17 @@ function App() {
           },
           particles: {
             number: {
-              value: 40,
+              value: 10,
               density: {
                 enable: true,
-                value_area: 640,
+                value_area: 500,
               },
             },
             color: {
               value: "#1c68bb",
             },
             shape: {
-              type: "polygon",
+              type: ["polygon", "circle", "triangle", "square"],
               stroke: {
                 width: 0,
                 color: "#000000",
