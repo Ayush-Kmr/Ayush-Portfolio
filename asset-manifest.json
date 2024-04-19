@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ayush-Portfolio/static/css/main.e3318f92.css",
-    "main.js": "/Ayush-Portfolio/static/js/main.85d7d319.js",
+    "main.css": "/Ayush-Portfolio/static/css/main.145f105c.css",
+    "main.js": "/Ayush-Portfolio/static/js/main.6d58fd0c.js",
     "static/js/787.1ed0c42c.chunk.js": "/Ayush-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/work-1.png": "/Ayush-Portfolio/static/media/work-1.9d70c2239b9cefe78a18.png",
     "static/media/arups.png": "/Ayush-Portfolio/static/media/arups.917d9aa345396907bf60.png",
@@ -26,12 +26,12 @@
     "static/media/github.png": "/Ayush-Portfolio/static/media/github.dfdd0989ffe0184bdd68.png",
     "static/media/c++.png": "/Ayush-Portfolio/static/media/c++.36a6aae067f8ef48fd4d.png",
     "index.html": "/Ayush-Portfolio/index.html",
-    "main.e3318f92.css.map": "/Ayush-Portfolio/static/css/main.e3318f92.css.map",
-    "main.85d7d319.js.map": "/Ayush-Portfolio/static/js/main.85d7d319.js.map",
+    "main.145f105c.css.map": "/Ayush-Portfolio/static/css/main.145f105c.css.map",
+    "main.6d58fd0c.js.map": "/Ayush-Portfolio/static/js/main.6d58fd0c.js.map",
     "787.1ed0c42c.chunk.js.map": "/Ayush-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3318f92.css",
-    "static/js/main.85d7d319.js"
+    "static/css/main.145f105c.css",
+    "static/js/main.6d58fd0c.js"
   ]
 }
