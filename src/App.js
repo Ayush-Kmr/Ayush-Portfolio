@@ -16,6 +16,10 @@ import "./Component/Responsive/responsive.css";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
+// Always required after pushing anything on github in case of react
+// npm install --save gh-pages
+// npm run deploy
+
 function App() {
   const particlesInit = async (main) => {
     console.log(main);
