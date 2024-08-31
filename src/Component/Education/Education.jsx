@@ -8,7 +8,7 @@ const expData = [
     role: "Intern",
     duration: "June (2023) - Present",
     cname: "Cashfree Payments",
-    URL: "ayush kumar",
+    URL: "https://www.cashfree.com/",
     description:
       "Working as an SDET intern at Cashfree Payments, ensuring software quality through automated testing, bug tracking, and performance optimization.",
   },

@@ -19,6 +19,7 @@ import { loadFull } from "tsparticles";
 // Always required after pushing anything on github in case of react
 // npm install --save gh-pages
 // npm run deploy
+// the above are the compulsory fields
 
 function App() {
   const particlesInit = async (main) => {
