@@ -4,6 +4,16 @@ import "./education.css";
 const expData = [
   {
     id: 1,
+    position: "SDET Intern",
+    role: "Intern",
+    duration: "June (2023) - Present",
+    cname: "Cashfree Payments",
+    URL: "ayush kumar",
+    description:
+      "Working as an SDET intern at Cashfree Payments, ensuring software quality through automated testing, bug tracking, and performance optimization.",
+  },
+  {
+    id: 2,
     position: "Web Developer",
     role: "Intern",
     duration: "June - July (2023) ",
@@ -12,16 +22,6 @@ const expData = [
     description:
       "At TechTwins Technologies' summer internship, I excelled as a web developer intern, gaining valuable hands-on experience, enhancing coding skills, and actively contributing to real-world projects.",
   },
-  // {
-  //   id: 2,
-  //   position: "Web Developer",
-  //   role: "Intern",
-  //   duration: "2020-2021",
-  //   cname: "Techtwins Technologies",
-  //   URL: "ayush kumar",
-  //   description:
-  //     "  Lorem ipsum dolor sit amet consectetur adipisicing elit.Dolorem ipsam ratione eaque nihil. Fuga, voluptatem.",
-  // },
 ];
 
 const Education = () => {
