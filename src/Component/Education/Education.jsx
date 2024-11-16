@@ -4,13 +4,13 @@ import "./education.css";
 const expData = [
   {
     id: 1,
-    position: "SDET Intern",
+    position: "Engineering Intern",
     role: "Intern",
     duration: "June (2023) - Present",
     cname: "Cashfree Payments",
     URL: "https://www.cashfree.com/",
     description:
-      "Working as an SDET intern at Cashfree Payments, ensuring software quality through automated testing, bug tracking, and performance optimization.",
+      "Engineering Intern at Cashfree Payments, automated tests for card flows, improved API accuracy, performance, and managed payment services.",
   },
   {
     id: 2,
