@@ -6,11 +6,11 @@ const expData = [
     id: 1,
     position: "Engineering Intern",
     role: "Intern",
-    duration: "June (2023) - Present",
+    duration: "June (2024) - Present",
     cname: "Cashfree Payments",
     URL: "https://www.cashfree.com/",
     description:
-      "Engineering Intern at Cashfree Payments, automated tests for card flows, improved API accuracy, performance, and managed payment services.",
+      "Engineering Intern at Cashfree Payments, designed and developed APIs, optimized server-side performance, ensured reliability with unit tests, and managed payment services like DCC and card bin.",
   },
   {
     id: 2,
