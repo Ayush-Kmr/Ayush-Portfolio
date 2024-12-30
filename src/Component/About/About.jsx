@@ -16,15 +16,16 @@ const About = () => {
               <div className="description">
                 <h3>I'm Ayush Kumar</h3>
                 <h4>
-                  A Lead <span>Front-End Developer</span> practicing to be
-                  better in future.
+                  A <span>Software Engineer</span> striving to excel in the ever
+                  evolving tech landscape.
                 </h4>
                 <p>
-                  As a forward-thinking engineering student, I've emerged as a
-                  leading developer through a series of impactful projects. My
-                  expertise in full stack development shines as I architect
-                  innovative solutions, pushing boundaries and delivering
-                  excellence through meticulously crafted code.
+                  Currently at Cashfree Payments, I specialize in backend
+                  development and API design, creating secure and efficient
+                  payment solutions. My work focuses on optimizing performance,
+                  ensuring seamless integrations, and delivering reliable,
+                  future-ready code. With a problem-solving mindset, I strive
+                  for innovation and excellence in every project.
                 </p>
               </div>
               <ul className="ul-professional-list">
