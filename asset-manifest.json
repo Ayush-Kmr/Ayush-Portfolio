@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ayush-Portfolio/static/css/main.145f105c.css",
-    "main.js": "/Ayush-Portfolio/static/js/main.0d3e1aab.js",
+    "main.js": "/Ayush-Portfolio/static/js/main.9ff0f733.js",
     "static/js/787.1ed0c42c.chunk.js": "/Ayush-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/arups.png": "/Ayush-Portfolio/static/media/arups.adc160a5c7f46e0e7468.png",
     "static/media/work-1.png": "/Ayush-Portfolio/static/media/work-1.9d70c2239b9cefe78a18.png",
@@ -11,7 +11,7 @@
     "static/media/crs.png": "/Ayush-Portfolio/static/media/crs.3deafe7bc56bf5d3fb77.png",
     "static/media/profile.gif": "/Ayush-Portfolio/static/media/profile.5081f2561f401a474832.gif",
     "static/media/react.png": "/Ayush-Portfolio/static/media/react.2f2532db663fd5ec5f95.png",
-    "static/media/Resume.pdf": "/Ayush-Portfolio/static/media/Resume.f95b9d0669b91a74143b.pdf",
+    "static/media/Resume.pdf": "/Ayush-Portfolio/static/media/Resume.b89a749e7802e528c811.pdf",
     "static/media/rups.png": "/Ayush-Portfolio/static/media/rups.4212436f7a509f3dafb2.png",
     "static/media/psg.png": "/Ayush-Portfolio/static/media/psg.b2d3fe9cf08143291707.png",
     "static/media/geographic map compass.png": "/Ayush-Portfolio/static/media/geographic map compass.2530f0389bdc708fd4dd.png",
@@ -27,11 +27,11 @@
     "static/media/c++.png": "/Ayush-Portfolio/static/media/c++.36a6aae067f8ef48fd4d.png",
     "index.html": "/Ayush-Portfolio/index.html",
     "main.145f105c.css.map": "/Ayush-Portfolio/static/css/main.145f105c.css.map",
-    "main.0d3e1aab.js.map": "/Ayush-Portfolio/static/js/main.0d3e1aab.js.map",
+    "main.9ff0f733.js.map": "/Ayush-Portfolio/static/js/main.9ff0f733.js.map",
     "787.1ed0c42c.chunk.js.map": "/Ayush-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.145f105c.css",
-    "static/js/main.0d3e1aab.js"
+    "static/js/main.9ff0f733.js"
   ]
 }
