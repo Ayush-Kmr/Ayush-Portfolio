@@ -31,12 +31,17 @@ const HeroSection = () => {
               <Icons />
             </div>
             <p className="homedetails">
-              I'm an aspiring engineering student at Lovely Professional
-              University with a relentless passion for all things about
-              Full-Stack Development. Eagerly delving into the realms of
-              front-end and back-end development, I'm on a journey to master the
-              art of creating seamless digital experiences. Innovation and
-              problem-solving drive my quest for excellence.
+              I’m a passionate Software Engineering student at Lovely
+              Professional University with hands-on experience in technologies
+              like Java, C++, ReactJS, and Spring Boot. Currently working as a
+              Software Engineering Intern at <b>Cashfree Payments</b>, I’ve
+              contributed to optimizing payment services and enhancing
+              server-side performance. Through my internships and personal
+              projects, I’ve gained expertise in both front-end and back-end
+              development, always striving to create scalable, efficient, and
+              user-friendly digital solutions. Problem-solving and continuous
+              learning drive my passion for delivering high-impact digital
+              experiences.
             </p>
             <a
               href="mailto:krayushkumar01@gmail.com"
