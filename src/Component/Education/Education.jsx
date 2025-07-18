@@ -4,16 +4,26 @@ import "./education.css";
 const expData = [
   {
     id: 1,
+    position: "SWE - 1 ",
+    role: "Intern",
+    duration: "July (2025) - Present",
+    cname: "Cashfree Payments",
+    URL: "https://www.cashfree.com/",
+    description:
+      "Integrated Slack alerting for 100% of QA services, increasing incident visibility and reducing average detection time by 25%.Enhanced alert routing logic in Alertmanager using custom matchers, leading to an 80% reduction in noise across QAalerts.",
+  },
+  {
+    id: 2,
     position: "Engineering Intern",
     role: "Intern",
-    duration: "June (2024) - Present",
+    duration: "June (2024) - July (2025)",
     cname: "Cashfree Payments",
     URL: "https://www.cashfree.com/",
     description:
       "Engineering Intern at Cashfree Payments, designed and developed APIs, optimized server-side performance, ensured reliability with unit tests, and managed payment services like DCC and card bin.",
   },
   {
-    id: 2,
+    id: 3,
     position: "Web Developer",
     role: "Intern",
     duration: "June - July (2023) ",
